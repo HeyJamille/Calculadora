@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jamille/Área de Trabalho/Projetos/Calculadora/calculadora/calculadora.csproj": {}
+    "/home/jamille/Área de Trabalho/Projetos/calculadora/calculadora.csproj": {}
   },
   "projects": {
-    "/home/jamille/Área de Trabalho/Projetos/Calculadora/calculadora/calculadora.csproj": {
+    "/home/jamille/Área de Trabalho/Projetos/calculadora/calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jamille/Área de Trabalho/Projetos/Calculadora/calculadora/calculadora.csproj",
+        "projectUniqueName": "/home/jamille/Área de Trabalho/Projetos/calculadora/calculadora.csproj",
         "projectName": "calculadora",
-        "projectPath": "/home/jamille/Área de Trabalho/Projetos/Calculadora/calculadora/calculadora.csproj",
+        "projectPath": "/home/jamille/Área de Trabalho/Projetos/calculadora/calculadora.csproj",
         "packagesPath": "/home/jamille/.nuget/packages/",
-        "outputPath": "/home/jamille/Área de Trabalho/Projetos/Calculadora/calculadora/obj/",
+        "outputPath": "/home/jamille/Área de Trabalho/Projetos/calculadora/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jamille/.nuget/NuGet/NuGet.Config"
