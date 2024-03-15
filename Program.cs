@@ -14,11 +14,12 @@ namespace Calculadora
     {
       Console.Clear(); // Limpa a tela
 
-      Console.WriteLine("Escolha uma opção:");
+      Console.WriteLine("Escolha o tipo de calculadora que gostaria de:");
       Console.WriteLine("1 - Soma \n" +
                         "2 - Subtração \n" +
                         "3 - Multiplicação \n" +
-                        "4 - Divisão \n");
+                        "4 - Divisão \n" +
+                        "5 - Sair \n");
 
       Console.Write("Opção: ");
       int opcao = int.Parse(Console.ReadLine());
@@ -38,6 +39,9 @@ namespace Calculadora
           break;
         case 4:
           Divisao();
+          break;
+        case 5:
+          Sair();
           break;
       }
     }
@@ -108,6 +112,13 @@ namespace Calculadora
 
       float divisao = (num_1 / num_2);
       Console.WriteLine($"Resultado: {divisao}");
+    }
+
+    // Método Sair
+    static void Sair()
+    {
+      Console.WriteLine("Obrigado por utilizar o nosso sistema. Até mais! :)");
+      System.Environment.Exit(0); // Sai do sistema
     }
   }
 }
